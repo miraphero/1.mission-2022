@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    background:#0F0826;
+    /* background: #040D21; .............this color would be best if applied*/
+}
+section{
+height: 600px;
+}
+
+/* Header-area styles */
+#header-area{
+    height: 500px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 400;
+
+   
+}
+.text-area > p{
+    padding-top: 30px;
+}
+p{
+    font-size: 18px;
+    color: #3E3E3E;
+}
+.half-width{
+    width: 40%;
+    float: left;
+   padding-left: 100px;
+}
+.half-width h1{
+    font-family: 'Yeseva One', cursive;
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, #141414, #ae6988);
+    border-image-slice: 1;
+    padding-left: 20px;
+
+}
+
+.half-width img{
+    width: 80%;
+    
+}
+.text-area{
+    padding-left: 150px;
+    padding-top: 150px;
+}
+h1> span{
+    /* color:#14174A;.......................OPT.......................... */
+    color: #AE6988;
+    font-weight: bold;
+  
+}
+button{
+    padding: 12px 25px;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(45deg, #14174A, #AE6988);
+    
+}
+
+/*  Mission Section Styles */
+#mission-section h2{
+    padding-bottom: 50px;
+}
+.container{
+    padding-left: 120px;
+}
+h2{
+    font-size: 48px;
+    font:bold;
+    text-align: center;
+    margin-top: 150px;
+}
+h2 span{
+    /* color: #14174A; ...................................OPT .............*/
+    color: #AE6988;
+}
+.box{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+    background: #dfa9c1;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box p{
+    text-align: justify;
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: black;
+}
+.box img{
+    width: 50%;
+}
+.box-1{
+    background: linear-gradient(lightgray, #B18ECA);
+}
+.box-2{
+    background: linear-gradient(#E6D5B7, lightgray);
+}
+.box-3{
+    background: linear-gradient(lightgray, #B36E85);
+}
+
+
+/* Develop Section Styles */
+#develop-section{
+    height: 537px;
+}
+h3{
+    font-size: 36px;
+    font: 700;
+}
+.develop-img{
+    width: 35%;
+    padding-left: 30px;
+    float: left;
+}
+.develop-img img{
+    width: 110%;
+}
+.develop-textarea{
+    padding-top: 60px;
+    width: 45%;
+    float: left;
+    padding-left: 50px;
+}
+.develop-textarea p, .community-textarea p {
+    font-size: 16px;
+    padding-bottom: 30px;
+
+}
+
+/* Community Section */
+
+#community-section{
+height: 400px;
+}
+.community-img{
+    width: 40%;
+    float: left;
+}
+.community-img img{
+    width: 100%;
+    
+}
+.community-textarea{
+    width: 45%;
+    float: left;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+/* phero Bonus Section Styles */
+
+#phero-section{
+    background:#0F0826;
+    height: 120vh;
+  
+}
+
+#phero-section h2{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    word-spacing: 0.2px;
+    padding-bottom: 80px;
+}
+#phero-section>h2> span{
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+.col-1{
+    width: 20%;
+    float: left;
+    padding-right: 150px;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.col-2{
+    width: 15%;
+    float: left;
+    width: 300px;
+    height: 270px;
+    background: #201548;
+    margin: 20px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+}
+ .number, .text{
+    color: #ffffff;
+
+}
+.col-2 img, .col-3 img{
+    width: 20%;
+}
+.col-3{
+    width: 15%;
+    float: left;
+}
+.mid-col{
+    margin-top: 180px;
+}
+.number{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+/* Footer Section Styles */
+
+#footer-section{
+    height: 177px;
+    background: linear-gradient(black, #201548 );
+    text-align: center;
+  border-top: 1px solid  #201548;
+}
+#footer-section > h3, #footer-section > p {
+    color: #ffffff;
+    padding-top: 30px;
+}
+#footer-section > h3{
+    font-family: 'Yeseva One', cursive;
+}
+#footer-section > h3 > span{
+    color: #AE6988;
+}
+p, h1, h2, h3{
+    color: #ffffff;
+}
